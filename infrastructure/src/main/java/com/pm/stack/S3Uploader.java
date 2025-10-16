@@ -8,7 +8,6 @@ import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.*;
 import software.amazon.awssdk.services.s3.S3Configuration;
 import software.amazon.awssdk.http.apache.ApacheHttpClient;
-import software.amazon.awssdk.services.s3.presigner.S3Presigner;
 
 import java.io.File;
 import java.net.URI;

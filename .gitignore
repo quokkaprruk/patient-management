@@ -1,0 +1,12 @@
+# Standard IDE and Build Exclusions
+.idea/
+*.iml
+target/
+build/
+out/
+*.log
+
+# Generated Infrastructure Files
+cdk.out/
+localstack.template.json
+tree.json

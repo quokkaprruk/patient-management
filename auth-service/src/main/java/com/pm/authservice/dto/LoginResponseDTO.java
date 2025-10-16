@@ -1,6 +1,6 @@
 package com.pm.authservice.dto;
 
-import jakarta.persistence.Column;
+
 
 public class LoginResponseDTO
 {

@@ -1,6 +1,5 @@
 package com.pm.patientservice.kafka;
 
-import aj.org.objectweb.asm.commons.TryCatchBlockSorter;
 import com.pm.patientservice.model.Patient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
