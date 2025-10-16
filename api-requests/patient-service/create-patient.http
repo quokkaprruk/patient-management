@@ -1,0 +1,17 @@
+# POST http://localhost:4000/patients
+# after api-gateway
+# POST http://localhost:4004/api/patients
+POST http://lb-125ab565.elb.localhost.localstack.cloud:4004/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "firstName": "Deploy",
+  "lastName": "Ment",
+  "address": "123 main street",
+  "email": "deployment@example.com",
+  "birthDate": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+###

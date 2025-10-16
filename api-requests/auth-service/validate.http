@@ -1,0 +1,8 @@
+### GET request to validate token
+### GET http://localhost:4005/validate
+### API GATEWAY
+### GET http://localhost:4004/auth/validate
+
+GET http://lb-125ab565.elb.localhost.localstack.cloud:4004/auth/
+Authorization: Bearer {{token}}
+###

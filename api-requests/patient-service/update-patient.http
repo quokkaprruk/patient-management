@@ -1,0 +1,14 @@
+#PUT http://localhost:4004/api/patients/a10f9b09-63f4-4d01-990b-dc125d5e2e10
+PUT http://lb-125ab565.elb.localhost.localstack.cloud:4004/api/patients/a10f9b09-63f4-4d01-990b-dc125d5e2e10
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "firstName": "Deploy",
+  "lastName": "Successfully",
+  "email": "deployment@example.com",
+  "address": "123 main street",
+  "birthDate": "1995-09-09"
+}
+
+###
