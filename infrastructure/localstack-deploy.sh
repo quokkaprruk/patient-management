@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-
 LOCALSTACK_ENDPOINT="http://localhost:4566"
 STACK_NAME="patient-management"
 S3_BUCKET_NAME="test-bucket"
