@@ -2,7 +2,7 @@
 ### GET http://localhost:4000/patients
 ### GET http://localhost:4004/api/patients
 
-GET http://lb-125ab565.elb.localhost.localstack.cloud:4004/api/patients
+GET http://lb-1380f550.elb.localhost.localstack.cloud:4004/api/patients
 Authorization: Bearer {{token}}
 
 ###

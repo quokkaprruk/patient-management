@@ -7,6 +7,4 @@ out/
 *.log
 
 # Generated Infrastructure Files
-cdk.out/
-localstack.template.json
-tree.json
+infrastructure/cdk.out/*

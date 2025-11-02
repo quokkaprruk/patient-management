@@ -65,7 +65,7 @@ After completing a 12-hour tutorial, these are my self-added implementations:
 
 - **Designed gRPC communication** between `patient-service` and `billing-service`.
 - **Implemented gRPC integration** between both services with a clean and organized file structure.
-- **Configured** `billing-service` and its **PostgreSQL database**, ensuring a billing account is automatically created when a new patient is added.
+- **Configured** `billing-service` and its **PostgresSQL database**, ensuring a billing account is automatically created when a new patient is added.
 - **Tested the billing system (internal use only)** and restricted external access by enabling billing routes **only during the development phase**.
 - **Created a Docker image** for the `billing-service` database.
 - **Implemented an `s3Uploader` class** to pre-stage CloudFormation templates (artifacts for deployment).
