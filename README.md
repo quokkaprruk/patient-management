@@ -87,8 +87,9 @@ automatically tries to upload the template to **real AWS S3**, even I specified 
 However, my goal was to deploy entirely within the LocalStack environment using mock AWS credentials.
 
 The issue was finally fixed by:
-- Implementing an **`S3Uploader` class** to upload the CloudFormation template to **LocalStack S3**.
+- Troubleshooting errors from Localstack terminal to upload the CloudFormation template to **LocalStack S3**.
 - Updating the **shell script** to fetch the template from **LocalStack S3** instead of AWS and then deploy it locally.
+- Debugging network architecture issues due to kafka version and LocalStack.java configuration.
 
 ###
 ***
