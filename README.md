@@ -68,8 +68,8 @@ After completing a 12-hour tutorial, these are my self-added implementations:
 - **Configured** `billing-service` and its **PostgresSQL database**, ensuring a billing account is automatically created when a new patient is added.
 - **Tested the billing system (internal use only)** and restricted external access by enabling billing routes **only during the development phase**.
 - **Created a Docker image** for the `billing-service` database.
-- **Implemented an `s3Uploader` class** to pre-stage CloudFormation templates (artifacts for deployment).
-- **Updated infrastructure** to support `billing-service` database connections and integrate the `S3 uploader` class.
+- **Uploaded the CloudFormation template** to LocalStack S3 using a shell script
+- **Updated infrastructure** to support `billing-service` database connections.
 - **Debugged, fixed, and updated shell scripts** to enable successful deployment to **LocalStack** (an AWS-like local environment).
 
 ###
